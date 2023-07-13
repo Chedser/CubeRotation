@@ -83,11 +83,14 @@ void CubeWidget::drawCube()
 
        glMatrixMode(GL_MODELVIEW);
        glLoadIdentity();
-       glTranslatef(0.0, 0.0, -10.0);
+       glTranslatef(0.0, 0.0, -10.0); // Отодвинуть куб назад от камеры
+
+       /* Вращение */
        glRotatef(xAngle, 1.0, 0.0, 0.0);
        glRotatef(yAngle, 0.0, 1.0, 0.0);
        glRotatef(zAngle, 0.0, 0.0, 1.0);
 
+       /* Создание куба */
        for (int i = 0; i < 6; ++i) { // Грани
            glLoadName(i);
            glBegin(GL_QUADS);
