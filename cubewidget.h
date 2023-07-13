@@ -3,7 +3,7 @@
 
 #include<QGLWidget>
 
-/* Ось вращения */
+/* Оси вращения */
 enum class Axis {
     X,
     Y,
