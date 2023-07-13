@@ -1,12 +1,13 @@
-Заголовочные файлы
-cubewidget.h — Виджет куба
-mainwindow.h — Главное окно
+<h3>Заголовочные файлы</h3>
+cubewidget.h — Виджет куба<br />
+mainwindow.h — Главное окно<br />
 
-Файлы реализации
-cubewidget.cpp
-mainwindow.cpp
-main.cpp — Точка входа в программу
+<h3>Файлы реализации</h3>
+cubewidget.cpp<br />
+mainwindow.cpp<br />
+main.cpp — Точка входа в программу<br />
 
-mainwindow.ui — Интерфейс главного окна
-res.qrc — Файл описания ресурсов
-resources — Папка с ресурсами
+<h3>Остальные файлы</h3>
+mainwindow.ui — Интерфейс главного окна<br />
+res.qrc — Файл описания ресурсов<br />
+resources — Папка с ресурсами<br />
