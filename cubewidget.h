@@ -7,7 +7,8 @@
 enum class Axis {
     X,
     Y,
-    Z};
+    Z
+        };
 
 class CubeWidget : public QGLWidget
 {
