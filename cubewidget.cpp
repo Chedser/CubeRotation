@@ -47,7 +47,6 @@ void CubeWidget::resizeGL(int width, int height)
 /* ГЛАВНЫЙ МЕТОД ЛОГИКИ ПРОГРАММЫ */
 void CubeWidget::rotate(Axis axis, int angle)
 {
-
     switch(axis){
         case Axis::X: xAngle = angle;
                       glRotatef(xAngle, 1, 0, 0);
@@ -59,7 +58,6 @@ void CubeWidget::rotate(Axis axis, int angle)
                       glRotatef(zAngle, 0, 0, 1);
                       break;
     }
-
     updateGL(); //Повторная прорисовка
 }
 
